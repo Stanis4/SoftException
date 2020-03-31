@@ -1,8 +1,6 @@
-package logics;
-import exceptions.AngryPeopleException;
-import exceptions.BudgetException;
-import exceptions.NoWorkException;
-import exceptions.NotEnoughMoneyException;
+package logic;
+import exception.AngryPeopleException;
+import exception.BudgetException;
 
 
 public class Country {
@@ -18,7 +16,6 @@ public class Country {
             throw new AngryPeopleException();
         }
     }
-
 
     public void makeTaxesLower() {
         try{

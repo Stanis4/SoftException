@@ -1,8 +1,8 @@
 package main;
 
-import logics.City;
-import logics.Country;
-import logics.House;
+import logic.City;
+import logic.Country;
+import logic.House;
 
 public class Main {
     public static void main(String[] args) {

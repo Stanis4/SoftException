@@ -1,4 +1,4 @@
-package exceptions;
+package exception;
 
 public class LowIncomeException extends AngryPeopleException {
     @Override

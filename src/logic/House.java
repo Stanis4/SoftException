@@ -1,7 +1,7 @@
-package logics;
+package logic;
 
-import exceptions.NoWorkException;
-import exceptions.NotEnoughMoneyException;
+import exception.NoWorkException;
+import exception.NotEnoughMoneyException;
 
 public class House extends City {
     private boolean hasCar = true;
@@ -26,5 +26,4 @@ public class House extends City {
         }
 
     }
-
 }
